@@ -33,11 +33,6 @@ This project aims to gather and analyze real-time data from Twitter to provide i
    pip install -r requirements.txt
    ```
 
-   If `requirements.txt` is not available, manually install the packages listed in the notebook, such as:
-   ```bash
-   pip install tweepy textblob matplotlib
-   ```
-
 3. **Set Up Twitter API Keys**
    - Obtain your API keys from the Twitter Developer Portal.
    - Set them up in the notebook where indicated or use environment variables.
@@ -77,9 +72,8 @@ Ensure your changes follow the project's style and guidelines.
 
 ## Project Structure
 
-- `/data/`: Directory for storing collected tweet data (if applicable).
-- `/notebooks/`: Jupyter notebooks, including `Real_time_insights_twitter.ipynb`.
-- `/scripts/`: Auxiliary scripts for data processing or analysis.
+- `/data/`: Directory for storing collected tweet data (if applicable)..
+- `/scripts/`: scripts for data processing.
 - `requirements.txt`: List of required packages.
 
 ## License
